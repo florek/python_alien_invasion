@@ -1,6 +1,6 @@
 class Settings:
     def __init__(self):
-        self.alien_speed = 0.5
+        self.alien_speed = 1
         self.bg_color = (230, 230, 230)
         self.bullet_allowed = 3
         self.bullet_color = (60, 60, 60)
@@ -8,7 +8,7 @@ class Settings:
         self.bullet_speed = 1.5
         self.bullet_width = 3
         self.fleet_direction = 1
-        self.fleet_drop_speed = 5
+        self.fleet_drop_speed = 10
         self.screen_height = 800
         self.screen_width = 1200
         self.ship_limit = 3
