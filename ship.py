@@ -1,8 +1,10 @@
 import pygame
+from pygame.sprite import Sprite
 
 
-class Ship:
+class Ship(Sprite):
     def __init__(self, ai_game):
+        super().__init__()
         self.image = pygame.image.load('images/ship.bmp')
         self.moving_right = False
         self.moving_left = False
